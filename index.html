@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les produits CBI / GPSCL SARL à Douala, Cameroun. Commandez directement sur WhatsApp.">
+  <title>BOUTIQUE CBI | GPSCL SARL</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="products.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="brand">
+    <div class="logo">CBI</div>
+    <div>
+      <h1>BOUTIQUE CBI</h1>
+      <p>CBI / GPSCL SARL · Douala, Cameroun</p>
+    </div>
+  </div>
+  <button id="openCart" class="cart-button">
+    🛒 Panier (<span id="cartCount">0</span>)
+  </button>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <span class="eyebrow">BIENVENUE CHEZ CBI</span>
+    <h2>La qualité au service de votre quotidien.</h2>
+    <p>Découvrez notre catalogue de produits et passez vos commandes simplement sur WhatsApp.</p>
+    <a href="#catalogue" class="hero-button">Découvrir nos produits</a>
+  </div>
+</section>
+
+<main>
+  <section class="intro">
+    <h2>Notre boutique</h2>
+    <p>Explorez les produits proposés par CBI / GPSCL SARL.</p>
+  </section>
+
+  <section id="catalogue" class="catalogue">
+    <div class="catalogue-heading">
+      <div>
+        <h2>Nos produits</h2>
+        <p id="resultCount">Chargement du catalogue...</p>
+      </div>
+      <div class="filters">
+        <input id="searchInput" type="search" placeholder="Rechercher un produit...">
+        <select id="categoryFilter">
+          <option value="Toutes">Toutes les catégories</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="productGrid" class="product-grid"></div>
+  </section>
+
+  <section class="contact">
+    <h2>Besoin d'informations ?</h2>
+    <p>Contactez directement notre équipe commerciale.</p>
+    <a id="aboutWhatsApp" class="whatsapp-button"
+       href="https://wa.me/237672143561" target="_blank">
+      Contacter CBI sur WhatsApp
+    </a>
+  </section>
+</main>
+
+<div id="overlay" class="overlay"></div>
+
+<aside id="cartPanel" class="cart-panel" aria-hidden="true">
+  <div class="cart-header">
+    <h2>Mon panier</h2>
+    <button id="closeCart" aria-label="Fermer">✕</button>
+  </div>
+  <div id="cartItems"></div>
+  <button id="checkout" class="checkout-button" disabled>
+    Commander sur WhatsApp
+  </button>
+</aside>
+
+<footer>
+  <h2>BOUTIQUE CBI</h2>
+  <p>CBI / GPSCL SARL — Douala, Cameroun</p>
+  <p>Commandes WhatsApp : +237 672 14 35 61</p>
+  <p>© <span id="year"></span> CBI. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
