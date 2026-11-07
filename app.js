@@ -1,4 +1,5 @@
 
+
 const WHATSAPP_NUMBER = "237672143561";
 const CART_KEY = "cbi_cart_v1";
 
@@ -7,6 +8,15 @@ let cart = JSON.parse(localStorage.getItem(CART_KEY) || "[]");
 const grid = document.getElementById("productGrid");
 const searchInput = document.getElementById("searchInput");
 const categoryFilter = document.getElementById("categoryFilter");
+
+const escapeHTML = value =>
+  String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;"
+  })[char]);
 
 const categories = [
   ...new Set(PRODUCTS.map(product => product.category))
@@ -19,17 +29,28 @@ categories.forEach(category => {
   categoryFilter.appendChild(option);
 });
 
+function getDescription(product) {
+  if (product.description) return product.description;
+
+  return `${product.name}. Découvrez ce produit dans la boutique CBI, à Douala au Cameroun. Contactez-nous pour obtenir les informations, le prix et les modalités de commande.`;
+}
+
 function renderProducts() {
   const search = searchInput.value.toLowerCase().trim();
   const category = categoryFilter.value;
 
   const filtered = PRODUCTS.filter(product => {
+    const searchableText = [
+      product.name,
+      product.category,
+      getDescription(product),
+      ...(product.keywords || [])
+    ].join(" ").toLowerCase();
+
     const matchesCategory =
       category === "Toutes" || category === product.category;
 
-    const matchesSearch =
-      product.name.toLowerCase().includes(search) ||
-      product.category.toLowerCase().includes(search);
+    const matchesSearch = searchableText.includes(search);
 
     return matchesCategory && matchesSearch;
   });
@@ -40,7 +61,7 @@ function renderProducts() {
   grid.innerHTML = "";
 
   if (filtered.length === 0) {
-    grid.innerHTML = '<p>Aucun produit trouvé.</p>';
+    grid.innerHTML = "<p>Aucun produit trouvé.</p>";
     return;
   }
 
@@ -48,14 +69,31 @@ function renderProducts() {
     const card = document.createElement("article");
     card.className = "product-card";
 
+    const price = Number(product.price) > 0
+      ? `${Number(product.price).toLocaleString("fr-FR")} FCFA`
+      : "Prix sur demande";
+
     card.innerHTML = `
       <div class="product-image">
-        <img src="${product.image}" alt="${product.name}" loading="lazy">
+        <img
+          src="${escapeHTML(product.image)}"
+          alt="${escapeHTML(product.seoTitle || product.name)}"
+          loading="lazy"
+        >
       </div>
-      <div class="product-category">${product.category}</div>
-      <h3>${product.name}</h3>
+
+      <div class="product-category">
+        ${escapeHTML(product.category)}
+      </div>
+
+      <h3>${escapeHTML(product.name)}</h3>
+
+      <p class="product-description">
+        ${escapeHTML(getDescription(product))}
+      </p>
+
       <div class="product-actions">
-        <span class="price">Prix sur demande</span>
+        <span class="price">${price}</span>
         <button class="add-btn" data-id="${product.id}">
           Ajouter +
         </button>
@@ -103,13 +141,18 @@ function removeItem(id) {
 }
 
 function renderCart() {
-  const count = cart.reduce((total, item) => total + item.qty, 0);
+  const count = cart.reduce(
+    (total, item) => total + item.qty, 0
+  );
+
   document.getElementById("cartCount").textContent = count;
 
   const target = document.getElementById("cartItems");
 
   if (cart.length === 0) {
-    target.innerHTML = '<p class="empty-cart">Votre panier est vide.</p>';
+    target.innerHTML =
+      '<p class="empty-cart">Votre panier est vide.</p>';
+
     document.getElementById("checkout").disabled = true;
     return;
   }
@@ -119,18 +162,24 @@ function renderCart() {
   target.innerHTML = cart.map(item => {
     const product = PRODUCTS.find(p => p.id === item.id);
 
+    if (!product) return "";
+
     return `
       <div class="cart-row">
-        <img src="${product.image}" alt="${product.name}">
+        <img src="${escapeHTML(product.image)}"
+             alt="${escapeHTML(product.name)}">
+
         <div>
-          <b>${product.name}</b>
-          <small>${product.category}</small>
+          <b>${escapeHTML(product.name)}</b>
+          <small>${escapeHTML(product.category)}</small>
+
           <div class="qty">
             <button data-action="minus" data-id="${product.id}">−</button>
             <span>${item.qty}</span>
             <button data-action="plus" data-id="${product.id}">+</button>
           </div>
         </div>
+
         <button data-action="remove" data-id="${product.id}">
           Retirer
         </button>
@@ -176,8 +225,10 @@ document.getElementById("checkout").addEventListener("click", () => {
 
   const lines = cart.map(item => {
     const product = PRODUCTS.find(p => p.id === item.id);
+    if (!product) return "";
+
     return `• ${product.name} — quantité : ${item.qty}`;
-  });
+  }).filter(Boolean);
 
   const message =
     "Bonjour CBI, je souhaite commander :\n\n" +
@@ -200,6 +251,24 @@ document.getElementById("aboutWhatsApp").href =
 document.getElementById("year").textContent =
   new Date().getFullYear();
 
+// Informations SEO générales de la boutique
+document.title =
+  "Boutique CBI | Cosmétiques, soins capillaires et formations au Cameroun";
+
+const metaDescription =
+  "Découvrez la boutique CBI à Douala : produits cosmétiques, soins capillaires, parfumerie, entretien et formations professionnelles. Commandes WhatsApp.";
+
+let descriptionTag = document.querySelector(
+  'meta[name="description"]'
+);
+
+if (!descriptionTag) {
+  descriptionTag = document.createElement("meta");
+  descriptionTag.name = "description";
+  document.head.appendChild(descriptionTag);
+}
+
+descriptionTag.content = metaDescription;
+
 renderProducts();
 renderCart();
-                   
