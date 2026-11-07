@@ -1,4 +1,3 @@
-
 # BOUTIQUE CBI
 
 Bienvenue dans la boutique officielle CBI.
