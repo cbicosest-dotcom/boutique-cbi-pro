@@ -546,3 +546,47 @@ const PRODUCTS = [
     "price": 0
   }
 ];
+
+// ==========================================
+// DESCRIPTIONS ET REFERENCEMENT DES PRODUITS
+// BOUTIQUE CBI - DOUALA, CAMEROUN
+// ==========================================
+
+const SEO_TEMPLATES = {
+  "Formations & livres": (name) =>
+    `${name} : découvrez les ressources et formations professionnelles proposées par CBI pour développer vos compétences en cosmétique, dermocosmétique et chimie industrielle au Cameroun.`,
+
+  "Parfumerie": (name) =>
+    `${name} : découvrez notre sélection de parfums et produits de parfumerie chez BOUTIQUE CBI. Consultez les disponibilités et contactez-nous pour commander à Douala ou ailleurs au Cameroun.`,
+
+  "Soins capillaires": (name) =>
+    `${name} : découvrez ce produit de soin capillaire dans notre sélection CBI. Retrouvez des solutions pour compléter votre routine d'entretien des cheveux. Commandes disponibles au Cameroun.`,
+
+  "Entretien & maison": (name) =>
+    `${name} : découvrez notre sélection de produits d'entretien et d'hygiène pour la maison. Retrouvez les produits Faith Clean et autres références chez BOUTIQUE CBI à Douala, Cameroun.`,
+
+  "Soins visage & corps": (name) =>
+    `${name} : découvrez ce produit de soin du visage et du corps dans notre sélection BOUTIQUE CBI. Consultez les disponibilités et les conseils d'utilisation avant votre achat.`
+};
+
+// Création des descriptions et mots-clés
+PRODUCTS.forEach((product) => {
+  const template = SEO_TEMPLATES[product.category];
+
+  product.description = template
+    ? template(product.name)
+    : `Découvrez ${product.name} chez BOUTIQUE CBI au Cameroun.`;
+
+  product.keywords = [
+    product.name,
+    product.category,
+    "CBI",
+    "GPSCL SARL",
+    "Boutique cosmétique Cameroun",
+    "Douala Cameroun",
+    "Achat en ligne Cameroun"
+  ].join(", ");
+
+  product.imageAlt =
+    `${product.name} - ${product.category} - BOUTIQUE CBI Cameroun`;
+});
