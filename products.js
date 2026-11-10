@@ -277,89 +277,125 @@ const PRODUCTS = [
   "seoDescription": "Découvrez le Shampoing Réparateur Royal Crown chez BOUTIQUE CBI à Douala, Cameroun. Un shampoing pour nettoyer et entretenir la fibre capillaire."
 },
   {
-    "id": 30,
-    "name": "Deboucheur Faith Clean",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-deboucheur-faith-clean.webp",
-    "price": 0
-  },
+  "id": 30,
+  "name": "Déboucheur Faith Clean",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-deboucheur-faith-clean.webp",
+  "price": 3000,
+  "description": "Le déboucheur Faith Clean est un produit d’entretien destiné à faciliter le débouchage des canalisations et des conduits obstrués. Retrouvez-le dans la catégorie Entretien & maison de BOUTIQUE CBI.",
+  "seoTitle": "Déboucheur Faith Clean | Entretien et maison – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le déboucheur Faith Clean chez BOUTIQUE CBI, votre boutique de produits d’entretien et de ménage au Cameroun."
+},
   {
-    "id": 31,
-    "name": "Detartrant",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-detartrant.webp",
-    "price": 0
-  },
+  "id": 31,
+  "name": "Détartrant",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-detartrant.webp",
+  "price": 3000,
+  "description": "Le détartrant est un produit d’entretien conçu pour aider à éliminer les dépôts de tartre sur les surfaces et équipements compatibles. Il contribue à l’entretien et à la propreté de la maison. Consultez les instructions d’utilisation avant emploi.",
+  "seoTitle": "Détartrant pour la maison | Entretien – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le détartrant dans la catégorie Entretien & maison de BOUTIQUE CBI, votre boutique de produits d’entretien au Cameroun."
+},
   {
-    "id": 32,
-    "name": "Detergent Liquide Faith Clean",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-detergent-liquide-faith-clean.webp",
-    "price": 0
-  },
+  "id": 32,
+  "name": "Détergent Liquide Faith Clean",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-detergent-liquide-faith-clean.webp",
+  "price": 1500,
+  "description": "Le détergent liquide Faith Clean est un produit destiné au nettoyage et à l’entretien courant de la maison. Sa présentation liquide facilite son dosage selon les indications figurant sur l’emballage. Retrouvez-le dans la catégorie Entretien & maison de BOUTIQUE CBI.",
+  "seoTitle": "Détergent Liquide Faith Clean | BOUTIQUE CBI",
+  "seoDescription": "Découvrez le détergent liquide Faith Clean chez BOUTIQUE CBI, votre boutique de produits d’entretien et de ménage au Cameroun."
+},
   {
-    "id": 33,
-    "name": "Detergent Liquide",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-detergent-liquide.webp",
-    "price": 0
-  },
+  "id": 33,
+  "name": "Détergent Liquide",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-detergent-liquide.webp",
+  "price": 1500,
+  "description": "Le détergent liquide est un produit destiné au nettoyage et à l’entretien courant. Il s’intègre aux produits de la catégorie Entretien & maison de BOUTIQUE CBI. Consultez les indications figurant sur l’emballage pour connaître les surfaces ou usages adaptés.",
+  "seoTitle": "Détergent Liquide | Produit d’entretien – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le détergent liquide chez BOUTIQUE CBI, votre boutique de produits d’entretien et de ménage au Cameroun."
+},
   {
-    "id": 34,
-    "name": "Eau De Javel",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-eau-de-javel.webp",
-    "price": 0
-  },
+  "id": 34,
+  "name": "Eau de Javel",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-eau-de-javel.webp",
+  "price": 1000,
+  "description": "L’eau de Javel est un produit d’entretien utilisé pour la désinfection et le blanchiment, selon sa concentration et les usages indiqués sur l’emballage. Respectez les précautions d’emploi. Ne jamais la mélanger avec un détartrant, un acide ou un produit contenant de l’ammoniaque.",
+  "seoTitle": "Eau de Javel | Produit d’entretien – BOUTIQUE CBI",
+  "seoDescription": "Découvrez l’eau de Javel chez BOUTIQUE CBI, votre boutique de produits d’entretien et de ménage au Cameroun. Consultez les précautions d’emploi avant utilisation."
+},
   {
-    "id": 35,
-    "name": "Lave Linge",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-lave-linge.webp",
-    "price": 0
-  },
+  "id": 35,
+  "name": "Lave-linge",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-lave-linge.webp",
+  "price": 2500,
+  "description": "Produit d’entretien destiné à accompagner le lavage du linge. Retrouvez-le dans la catégorie Entretien & maison de BOUTIQUE CBI. Consultez les indications sur l’emballage pour connaître le dosage recommandé et les textiles compatibles.",
+  "seoTitle": "Lave-linge | Produit pour l’entretien du linge – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le produit Lave-linge chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits d’entretien et de nettoyage du linge."
+},
   {
-    "id": 36,
-    "name": "Lave Mains",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-lave-mains.webp",
-    "price": 0
-  },
+  "id": 36,
+  "name": "Lave-mains",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-lave-mains.webp",
+  "price": 1500,
+  "description": "Le lave-mains est un produit destiné au nettoyage des mains au quotidien. Il s’intègre à la sélection de produits d’hygiène et d’entretien de BOUTIQUE CBI. Consultez les indications figurant sur l’emballage pour connaître le mode d’utilisation recommandé.",
+  "seoTitle": "Lave-mains | Produit d’hygiène – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le lave-mains chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits d’hygiène et d’entretien."
+},
   {
-    "id": 37,
-    "name": "Lave Sol",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-lave-sol.webp",
-    "price": 0
-  },
+  "id": 37,
+  "name": "Lave-sol",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-lave-sol.webp",
+  "price": 2500,
+  "description": "Le lave-sol est un produit d’entretien destiné au nettoyage des sols. Il accompagne l’entretien régulier des surfaces compatibles pour contribuer à la propreté de votre maison ou de vos locaux. Respectez les indications d’utilisation figurant sur l’emballage.",
+  "seoTitle": "Lave-sol | Produit de nettoyage des sols – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le lave-sol chez BOUTIQUE CBI au Cameroun. Retrouvez notre sélection de produits d’entretien et de nettoyage pour la maison et les locaux."
+},
   {
-    "id": 38,
-    "name": "Lave Vitre Faith Clean",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-lave-vitre-faith-clean.webp",
-    "price": 0
-  },
+  "id": 38,
+  "name": "Lave-vitre Faith Clean",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-lave-vitre-faith-clean.webp",
+  "price": 1500,
+  "description": "Le lave-vitre Faith Clean est un produit d’entretien destiné au nettoyage des vitres et des surfaces vitrées compatibles. Il aide à retirer les traces et les salissures pour entretenir vos fenêtres, miroirs et autres surfaces adaptées. Respectez les consignes d’utilisation figurant sur l’emballage.",
+  "seoTitle": "Lave-vitre Faith Clean | Nettoyage des vitres – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le lave-vitre Faith Clean chez BOUTIQUE CBI au Cameroun. Un produit d’entretien pour le nettoyage des vitres et surfaces vitrées compatibles."
+},
   {
-    "id": 39,
-    "name": "Liquide Vaisselle",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-liquide-vaisselle.webp",
-    "price": 0
-  },
+  "id": 39,
+  "name": "Liquide Vaisselle",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-liquide-vaisselle.webp",
+  "price": 0,
+  "description": "Le liquide vaisselle est un produit d’entretien destiné au lavage manuel de la vaisselle. Il aide à nettoyer les assiettes, verres, casseroles et ustensiles de cuisine. Respectez les indications de dosage et les précautions d’emploi figurant sur l’emballage.",
+  "seoTitle": "Liquide Vaisselle | Produit de nettoyage – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le liquide vaisselle chez BOUTIQUE CBI au Cameroun. Retrouvez nos produits d’entretien pour le lavage de la vaisselle et la propreté de la cuisine."
+},
   {
-    "id": 40,
-    "name": "Savon Liquide",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-savon-liquide.webp",
-    "price": 0
-  },
+  "id": 40,
+  "name": "Savon Liquide",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-savon-liquide.webp",
+  "price": 2500,
+  "description": "Le savon liquide est un produit destiné au nettoyage et à l’hygiène au quotidien. Il s’utilise selon sa formulation et les indications figurant sur son emballage. Retrouvez-le dans la catégorie Entretien & maison de BOUTIQUE CBI.",
+  "seoTitle": "Savon Liquide | Hygiène et entretien – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon liquide chez BOUTIQUE CBI au Cameroun. Retrouvez notre sélection de produits d’hygiène et d’entretien pour un usage quotidien."
+},
   {
-    "id": 41,
-    "name": "Souplne Faith Clean",
-    "category": "Entretien & maison",
-    "image": "assets/produits-d-entretien-et-de-menage-souplne-faith-clean.webp",
-    "price": 0
-  },
+  "id": 41,
+  "name": "Soupline Faith Clean",
+  "category": "Entretien & maison",
+  "image": "assets/produits-d-entretien-et-de-menage-souplne-faith-clean.webp",
+  "price": 0,
+  "description": "La Soupline Faith Clean est un produit destiné à l’entretien du linge. Elle accompagne le lavage pour apporter de la souplesse aux textiles, selon les indications d’utilisation figurant sur l’emballage.",
+  "seoTitle": "Soupline Faith Clean | Entretien du linge – BOUTIQUE CBI",
+  "seoDescription": "Découvrez Soupline Faith Clean chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits d’entretien et de soin du linge."
+},
   {
     "id": 42,
     "name": "Black Diamont Eclaircissant",
