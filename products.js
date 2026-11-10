@@ -399,272 +399,356 @@ const PRODUCTS = [
   "seoTitle": "Soupline Faith Clean | Entretien du linge – BOUTIQUE CBI",
   "seoDescription": "Découvrez Soupline Faith Clean chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits d’entretien et de soin du linge."
 },
-  {
-    "id": 42,
-    "name": "Black Diamont Eclaircissant",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-black-diamont-eclaircissant.webp",
-    "price": 0
-  },
-  {
-    "id": 43,
-    "name": "Creme De Visage Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-creme-de-visage-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 44,
-    "name": "Creme De Visage Nel'S Vente En Gros",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-creme-de-visage-nel-s-vente-en-gros.webp",
-    "price": 0
-  },
-  {
-    "id": 45,
-    "name": "Creme De Visage Teint Parfait",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-creme-de-visage-teint-parfait.webp",
-    "price": 0
-  },
-  {
-    "id": 46,
-    "name": "Gel De Douche Fresh Vente En Gros",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gel-de-douche-fresh-vente-en-gros.webp",
-    "price": 0
-  },
-  {
-    "id": 47,
-    "name": "Gel Douche Clarifiant Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gel-douche-clarifiant-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 48,
-    "name": "Gel Sparkle",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gel-sparkle.webp",
-    "price": 0
-  },
-  {
-    "id": 49,
-    "name": "Gommage Corporel Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-corporel-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 50,
-    "name": "Gommage Eclaircissant Teint Parfait",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-eclaircissant-teint-parfait.webp",
-    "price": 0
-  },
-  {
-    "id": 51,
-    "name": "Gommage Tp",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-tp.webp",
-    "price": 0
-  },
-  {
-    "id": 52,
-    "name": "Gommage Visage Fresh Clarifiant",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-visage-fresh-clarifiant.webp",
-    "price": 0
-  },
-  {
-    "id": 53,
-    "name": "Huile Glow Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-huile-glow-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 54,
-    "name": "Huile Glow Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-huile-glow-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 55,
-    "name": "Huile Glow Visage",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-huile-glow-visage.webp",
-    "price": 0
-  },
-  {
-    "id": 56,
-    "name": "Lait Fresh Clarifiant",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-lait-fresh-clarifiant.webp",
-    "price": 0
-  },
-  {
-    "id": 57,
-    "name": "Lait Teint Parfait",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-lait-teint-parfait.webp",
-    "price": 0
-  },
-  {
-    "id": 58,
-    "name": "Lotion Et Creme Neils",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-lotion-et-creme-neils.webp",
-    "price": 0
-  },
-  {
-    "id": 59,
-    "name": "Lotion Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-lotion-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 60,
-    "name": "Lotion Tp",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-lotion-tp.webp",
-    "price": 0
-  },
-  {
-    "id": 61,
-    "name": "Lumeora",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-lumeora.webp",
-    "price": 0
-  },
-  {
-    "id": 62,
-    "name": "Mousse Tp",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-mousse-tp.webp",
-    "price": 0
-  },
-  {
-    "id": 63,
-    "name": "Recherche Representation",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-recherche-representation.webp",
-    "price": 0
-  },
-  {
-    "id": 64,
-    "name": "Savon Antiseptique King Nature",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-antiseptique-king-nature.webp",
-    "price": 0
-  },
-  {
-    "id": 65,
-    "name": "Savon Black Diamand Vente En Gros",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-black-diamand-vente-en-gros.webp",
-    "price": 0
-  },
-  {
-    "id": 66,
-    "name": "Savon Clarifiant Fresh",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-clarifiant-fresh.webp",
-    "price": 0
-  },
-  {
-    "id": 67,
-    "name": "Savon Eclaircissant Teint Parfait",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-eclaircissant-teint-parfait.webp",
-    "price": 0
-  },
-  {
-    "id": 68,
-    "name": "Savon Golden Glow Curcuma",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow-curcuma.webp",
-    "price": 0
-  },
-  {
-    "id": 69,
-    "name": "Savon Golden Glow Tomate",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow-tomate.webp",
-    "price": 0
-  },
-  {
-    "id": 70,
-    "name": "Savon Golden Glow Vente En Gros",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow-vente-en-gros.webp",
-    "price": 0
-  },
-  {
-    "id": 71,
-    "name": "Savon Golden Glow",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow.webp",
-    "price": 0
-  },
-  {
-    "id": 72,
-    "name": "Savon Lumeora Vente En Gros",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-lumeora-vente-en-gros.webp",
-    "price": 0
-  },
-  {
-    "id": 73,
-    "name": "Savon Lumeora",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-lumeora.webp",
-    "price": 0
-  },
-  {
-    "id": 74,
-    "name": "Savon Sparkle",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-sparkle.webp",
-    "price": 0
-  },
-  {
-    "id": 75,
-    "name": "Savon Super Eclaircissant",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-super-eclaircissant.webp",
-    "price": 0
-  },
-  {
-    "id": 76,
-    "name": "Savon Teint Parfait",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-teint-parfait.webp",
-    "price": 0
-  },
-  {
-    "id": 77,
-    "name": "Savon Traitant A La Spiruline",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-savon-traitant-a-la-spiruline.webp",
-    "price": 0
-  },
-  {
-    "id": 78,
-    "name": "Serum Tp",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-serum-tp.webp",
-    "price": 0
-  },
-  {
-    "id": 79,
-    "name": "Sparkle Eclaircissant",
-    "category": "Soins visage & corps",
-    "image": "assets/produits-de-soin-corporel-et-de-visage-sparkle-eclaircissant.webp",
-    "price": 0
-  }
+{
+  "id": 42,
+  "name": "Black Diamond Éclaircissant",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-black-diamont-eclaircissant.webp",
+  "price": 0,
+  "description": "Black Diamond Éclaircissant est un produit de soin cosmétique destiné à l'entretien de la peau. Découvrez ce produit dans la catégorie Soins visage & corps de BOUTIQUE CBI. Consultez sa composition, ses précautions d'emploi et les indications du fabricant avant utilisation.",
+  "seoTitle": "Black Diamond Éclaircissant | Soin visage et corps – BOUTIQUE CBI",
+  "seoDescription": "Découvrez Black Diamond Éclaircissant chez BOUTIQUE CBI au Cameroun. Retrouvez notre sélection de produits cosmétiques pour les soins du visage et du corps."
+},
+ {
+  "id": 43,
+  "name": "Crème de Visage Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-creme-de-visage-fresh.webp",
+  "price": 0,
+  "description": "La crème de visage Fresh est un produit cosmétique destiné aux soins quotidiens du visage. Retrouvez-la dans la gamme de soins visage et corps de BOUTIQUE CBI. Consultez sa composition et les conseils d'utilisation avant emploi.",
+  "seoTitle": "Crème de Visage Fresh | Soin du visage – BOUTIQUE CBI",
+  "seoDescription": "Découvrez la crème de visage Fresh chez BOUTIQUE CBI au Cameroun, votre boutique de produits cosmétiques et de soins du visage."
+},
+{
+  "id": 44,
+  "name": "Crème de Visage Nel'S – Vente en Gros",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-creme-de-visage-nel-s-vente-en-gros.webp",
+  "price": 0,
+  "description": "La crème de visage Nel'S est proposée dans une offre destinée à la vente en gros. Découvrez cette référence cosmétique dans la sélection de BOUTIQUE CBI. Pour les conditions de commande et les quantités disponibles, contactez notre équipe.",
+  "seoTitle": "Crème de Visage Nel'S en Gros | BOUTIQUE CBI",
+  "seoDescription": "Retrouvez la crème de visage Nel'S en vente en gros chez BOUTIQUE CBI au Cameroun. Contactez-nous pour vos commandes et renseignements."
+},
+{
+  "id": 45,
+  "name": "Crème de Visage Teint Parfait",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-creme-de-visage-teint-parfait.webp",
+  "price": 0,
+  "description": "La crème de visage Teint Parfait est un produit cosmétique de soin du visage. Retrouvez cette référence dans la sélection Teint Parfait de BOUTIQUE CBI. Vérifiez la composition, les précautions et les conseils d'utilisation avant emploi.",
+  "seoTitle": "Crème de Visage Teint Parfait | BOUTIQUE CBI",
+  "seoDescription": "Découvrez la crème de visage Teint Parfait chez BOUTIQUE CBI au Cameroun, dans notre gamme de soins cosmétiques pour le visage."
+},
+{
+  "id": 46,
+  "name": "Gel de Douche Fresh – Vente en Gros",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gel-de-douche-fresh-vente-en-gros.webp",
+  "price": 0,
+  "description": "Le gel de douche Fresh est un produit destiné à l'hygiène corporelle. Cette référence est proposée en vente en gros chez BOUTIQUE CBI. Contactez-nous pour connaître les conditions de commande et les disponibilités.",
+  "seoTitle": "Gel de Douche Fresh en Gros | BOUTIQUE CBI",
+  "seoDescription": "Commandez le gel de douche Fresh en gros chez BOUTIQUE CBI au Cameroun. Contactez notre équipe pour les informations sur les commandes."
+},
+{
+  "id": 47,
+  "name": "Gel Douche Clarifiant Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gel-douche-clarifiant-fresh.webp",
+  "price": 0,
+  "description": "Le gel douche clarifiant Fresh est un produit cosmétique destiné à l'hygiène corporelle. Retrouvez-le dans la gamme Fresh de BOUTIQUE CBI. Consultez la composition et les précautions d'utilisation avant emploi.",
+  "seoTitle": "Gel Douche Clarifiant Fresh | BOUTIQUE CBI",
+  "seoDescription": "Découvrez le gel douche clarifiant Fresh chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits de soin corporel."
+},
+{
+  "id": 48,
+  "name": "Gel Sparkle",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gel-sparkle.webp",
+  "price": 0,
+  "description": "Gel Sparkle est une référence de la catégorie Soins visage & corps de BOUTIQUE CBI. Retrouvez ce produit dans notre sélection de cosmétiques. Consultez son étiquetage pour connaître son usage, sa composition et ses précautions d'emploi.",
+  "seoTitle": "Gel Sparkle | Produit cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez Gel Sparkle chez BOUTIQUE CBI au Cameroun. Découvrez notre sélection de produits cosmétiques pour les soins du visage et du corps."
+},
+{
+  "id": 49,
+  "name": "Gommage Corporel Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-corporel-fresh.webp",
+  "price": 0,
+  "description": "Le gommage corporel Fresh est un produit cosmétique destiné à l'exfoliation de la peau du corps. Utilisez-le conformément aux indications du fabricant et évitez les zones irritées ou sensibilisées.",
+  "seoTitle": "Gommage Corporel Fresh | Exfoliant pour le corps – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le gommage corporel Fresh chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits cosmétiques pour le corps."
+},
+{
+  "id": 50,
+  "name": "Gommage Éclaircissant Teint Parfait",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-eclaircissant-teint-parfait.webp",
+  "price": 0,
+  "description": "Le gommage Teint Parfait est un produit cosmétique exfoliant destiné aux soins du corps. Cette référence est présentée dans la gamme Teint Parfait de BOUTIQUE CBI. Respectez les conseils d'utilisation et les précautions figurant sur son emballage.",
+  "seoTitle": "Gommage Teint Parfait | Soin exfoliant – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le gommage Teint Parfait chez BOUTIQUE CBI au Cameroun. Découvrez notre sélection de produits exfoliants pour les soins corporels."
+},
+{
+  "id": 51,
+  "name": "Gommage TP",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-tp.webp",
+  "price": 0,
+  "description": "Le gommage TP est une référence cosmétique de la catégorie Soins visage & corps. Retrouvez-le dans la sélection de BOUTIQUE CBI. Consultez son étiquetage pour connaître les zones d'application et les recommandations d'utilisation.",
+  "seoTitle": "Gommage TP | Produit exfoliant – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le gommage TP chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits cosmétiques pour les soins de la peau."
+},
+{
+  "id": 52,
+  "name": "Gommage Visage Fresh Clarifiant",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-gommage-visage-fresh-clarifiant.webp",
+  "price": 0,
+  "description": "Le gommage visage Fresh Clarifiant est un produit cosmétique destiné à l'exfoliation du visage. Utilisez-le selon les recommandations du fabricant, en évitant le contour des yeux et les zones irritées.",
+  "seoTitle": "Gommage Visage Fresh Clarifiant | BOUTIQUE CBI",
+  "seoDescription": "Découvrez le gommage visage Fresh Clarifiant chez BOUTIQUE CBI au Cameroun, dans notre gamme de produits exfoliants pour le visage."
+},
+{
+  "id": 53,
+  "name": "Huile Glow Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-huile-glow-fresh.webp",
+  "price": 0,
+  "description": "L'huile Glow Fresh est une référence cosmétique de la gamme Fresh, proposée dans la catégorie Soins visage & corps. Consultez son étiquetage pour connaître sa composition, ses zones d'application et les conseils d'utilisation.",
+  "seoTitle": "Huile Glow Fresh | Soin cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez l'huile Glow Fresh chez BOUTIQUE CBI au Cameroun. Découvrez notre sélection de produits cosmétiques pour les soins de la peau."
+},
+{
+  "id": 54,
+  "name": "Huile Glow Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-huile-glow-fresh.webp",
+  "price": 0,
+  "description": "L'huile Glow Fresh est une référence de la gamme Fresh dans la sélection de soins visage et corps de BOUTIQUE CBI. Pour connaître ses caractéristiques et son mode d'utilisation, consultez les informations figurant sur son emballage.",
+  "seoTitle": "Huile Glow Fresh | Produit de soin – BOUTIQUE CBI",
+  "seoDescription": "Découvrez l'huile Glow Fresh chez BOUTIQUE CBI au Cameroun. Retrouvez cette référence dans notre sélection de produits de soin cosmétique."
+},
+{
+  "id": 55,
+  "name": "Huile Glow Visage",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-huile-glow-visage.webp",
+  "price": 0,
+  "description": "L'huile Glow Visage est un produit cosmétique destiné aux soins du visage. Retrouvez cette référence dans la sélection de BOUTIQUE CBI. Vérifiez les indications du fabricant avant application, notamment pour les peaux sensibles.",
+  "seoTitle": "Huile Glow Visage | Soin du visage – BOUTIQUE CBI",
+  "seoDescription": "Découvrez l'huile Glow Visage chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits cosmétiques pour le visage."
+},
+{
+  "id": 56,
+  "name": "Lait Fresh Clarifiant",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-lait-fresh-clarifiant.webp",
+  "price": 0,
+  "description": "Le lait Fresh Clarifiant est un produit cosmétique destiné aux soins de la peau. Il appartient à la gamme Fresh de BOUTIQUE CBI. Consultez sa composition et les recommandations du fabricant avant utilisation.",
+  "seoTitle": "Lait Fresh Clarifiant | Soin corporel – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le lait Fresh Clarifiant chez BOUTIQUE CBI au Cameroun, dans notre sélection de laits et produits cosmétiques pour la peau."
+},
+{
+  "id": 57,
+  "name": "Lait Teint Parfait",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-lait-teint-parfait.webp",
+  "price": 0,
+  "description": "Le lait Teint Parfait est un produit cosmétique de soin corporel appartenant à la gamme Teint Parfait. Retrouvez cette référence chez BOUTIQUE CBI et consultez les indications du fabricant pour son utilisation.",
+  "seoTitle": "Lait Teint Parfait | Soin de la peau – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le lait Teint Parfait chez BOUTIQUE CBI au Cameroun. Découvrez notre sélection de produits cosmétiques pour le soin du corps."
+},
+{
+  "id": 58,
+  "name": "Lotion et Crème Nel'S",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-lotion-et-creme-neils.webp",
+  "price": 0,
+  "description": "La lotion et la crème Nel'S sont des références cosmétiques proposées dans la catégorie Soins visage & corps de BOUTIQUE CBI. Consultez les emballages pour connaître les caractéristiques et les conseils d'utilisation de chaque produit.",
+  "seoTitle": "Lotion et Crème Nel'S | Soins cosmétiques – BOUTIQUE CBI",
+  "seoDescription": "Découvrez la lotion et la crème Nel'S chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits de soin visage et corps."
+},
+{
+  "id": 59,
+  "name": "Lotion Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-lotion-fresh.webp",
+  "price": 0,
+  "description": "La lotion Fresh est un produit cosmétique de la gamme Fresh, disponible dans la sélection Soins visage & corps de BOUTIQUE CBI. Consultez son étiquetage pour connaître son usage et ses recommandations d'application.",
+  "seoTitle": "Lotion Fresh | Produit de soin – BOUTIQUE CBI",
+  "seoDescription": "Découvrez la lotion Fresh chez BOUTIQUE CBI au Cameroun, votre boutique de produits cosmétiques et de soins de la peau."
+},
+{
+  "id": 60,
+  "name": "Lotion TP",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-lotion-tp.webp",
+  "price": 0,
+  "description": "La lotion TP est une référence cosmétique de la catégorie Soins visage & corps. Retrouvez-la dans la sélection de BOUTIQUE CBI. Pour connaître ses caractéristiques et son mode d'emploi, reportez-vous aux informations du fabricant.",
+  "seoTitle": "Lotion TP | Soin cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez la lotion TP chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits cosmétiques pour les soins de la peau."
+},
+{
+  "id": 61,
+  "name": "Lumeora",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-lumeora.webp",
+  "price": 0,
+  "description": "Lumeora est une référence de la catégorie Soins visage & corps de BOUTIQUE CBI. Découvrez ce produit dans notre sélection cosmétique et consultez son emballage pour connaître sa fonction, sa composition et ses précautions d'utilisation.",
+  "seoTitle": "Lumeora | Produit cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Découvrez Lumeora chez BOUTIQUE CBI au Cameroun. Retrouvez notre sélection de produits cosmétiques et de soins visage et corps."
+},
+{
+  "id": 62,
+  "name": "Mousse TP",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-mousse-tp.webp",
+  "price": 0,
+  "description": "La mousse TP est une référence cosmétique de la gamme Teint Parfait. Retrouvez-la dans la catégorie Soins visage & corps de BOUTIQUE CBI. Consultez les indications du fabricant pour connaître son utilisation.",
+  "seoTitle": "Mousse TP | Gamme Teint Parfait – BOUTIQUE CBI",
+  "seoDescription": "Découvrez la mousse TP chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits cosmétiques de la gamme Teint Parfait."
+},
+{
+  "id": 63,
+  "name": "Recherche de Représentation",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-recherche-representation.webp",
+  "price": 0,
+  "description": "CBI recherche des personnes intéressées par la représentation et la distribution de ses produits. Cette annonce figure dans la rubrique Soins visage & corps de BOUTIQUE CBI. Contactez notre équipe pour obtenir les conditions de collaboration.",
+  "seoTitle": "Recherche de Représentants | CBI Cameroun – BOUTIQUE CBI",
+  "seoDescription": "Vous souhaitez devenir représentant des produits CBI au Cameroun ? Contactez BOUTIQUE CBI pour obtenir des informations sur les possibilités de collaboration."
+},
+{
+  "id": 64,
+  "name": "Savon Antiseptique King Nature",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-antiseptique-king-nature.webp",
+  "price": 0,
+  "description": "Le savon King Nature est présenté comme un savon antiseptique dans la gamme de soins de BOUTIQUE CBI. Consultez sa composition, son statut réglementaire et les précautions d'utilisation figurant sur son emballage.",
+  "seoTitle": "Savon Antiseptique King Nature | BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon antiseptique King Nature chez BOUTIQUE CBI au Cameroun. Consultez les informations du fabricant avant utilisation."
+},
+{
+  "id": 65,
+  "name": "Savon Black Diamond – Vente en Gros",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-black-diamand-vente-en-gros.webp",
+  "price": 0,
+  "description": "Le savon Black Diamond est proposé dans une offre de vente en gros chez BOUTIQUE CBI. Retrouvez cette référence dans notre sélection de produits cosmétiques. Contactez-nous pour connaître les quantités et les conditions de commande.",
+  "seoTitle": "Savon Black Diamond en Gros | BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le savon Black Diamond en vente en gros chez BOUTIQUE CBI au Cameroun. Contactez-nous pour vos commandes et renseignements."
+},
+{
+  "id": 66,
+  "name": "Savon Clarifiant Fresh",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-clarifiant-fresh.webp",
+  "price": 0,
+  "description": "Le savon clarifiant Fresh est un produit cosmétique destiné à l'hygiène et aux soins de la peau. Il appartient à la gamme Fresh de BOUTIQUE CBI. Consultez sa composition et les précautions d'emploi avant utilisation.",
+  "seoTitle": "Savon Clarifiant Fresh | Soin de la peau – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon clarifiant Fresh chez BOUTIQUE CBI au Cameroun, dans notre sélection de savons et produits cosmétiques."
+},
+{
+  "id": 67,
+  "name": "Savon Éclaircissant Teint Parfait",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-eclaircissant-teint-parfait.webp",
+  "price": 0,
+  "description": "Le savon Teint Parfait est une référence cosmétique présentée comme éclaircissante. Retrouvez-le dans la gamme Teint Parfait de BOUTIQUE CBI. Vérifiez sa composition, les précautions et les recommandations du fabricant avant utilisation.",
+  "seoTitle": "Savon Éclaircissant Teint Parfait | BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le savon Teint Parfait chez BOUTIQUE CBI au Cameroun, dans notre sélection de savons et de produits cosmétiques."
+},
+{
+  "id": 68,
+  "name": "Savon Golden Glow Curcuma",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow-curcuma.webp",
+  "price": 0,
+  "description": "Le savon Golden Glow Curcuma est une référence cosmétique de la gamme Golden Glow, associée au curcuma. Découvrez ce produit chez BOUTIQUE CBI et consultez son étiquetage pour connaître sa composition complète et ses conseils d'utilisation.",
+  "seoTitle": "Savon Golden Glow Curcuma | BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon Golden Glow au curcuma chez BOUTIQUE CBI au Cameroun, dans notre sélection de savons cosmétiques."
+},
+{
+  "id": 69,
+  "name": "Savon Golden Glow Tomate",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow-tomate.webp",
+  "price": 0,
+  "description": "Le savon Golden Glow Tomate est une référence cosmétique de la gamme Golden Glow, associée à la tomate. Retrouvez-le chez BOUTIQUE CBI et consultez son emballage pour connaître sa composition et les recommandations d'utilisation.",
+  "seoTitle": "Savon Golden Glow Tomate | BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le savon Golden Glow à la tomate chez BOUTIQUE CBI au Cameroun, dans notre gamme de savons et produits de soin."
+},
+{
+  "id": 70,
+  "name": "Savon Golden Glow – Vente en Gros",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow-vente-en-gros.webp",
+  "price": 0,
+  "description": "Le savon Golden Glow est proposé en vente en gros chez BOUTIQUE CBI. Cette référence appartient à notre sélection de produits cosmétiques. Contactez notre équipe pour connaître les quantités disponibles et les conditions de commande.",
+  "seoTitle": "Savon Golden Glow en Gros | BOUTIQUE CBI",
+  "seoDescription": "Commandez le savon Golden Glow en gros chez BOUTIQUE CBI au Cameroun. Contactez-nous pour connaître les conditions de vente."
+},
+{
+  "id": 71,
+  "name": "Savon Golden Glow",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-golden-glow.webp",
+  "price": 0,
+  "description": "Le savon Golden Glow est un produit cosmétique de la gamme Golden Glow, disponible dans la sélection de BOUTIQUE CBI. Consultez les informations figurant sur son emballage pour connaître sa composition et ses conseils d'utilisation.",
+  "seoTitle": "Savon Golden Glow | Produit cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon Golden Glow chez BOUTIQUE CBI au Cameroun, dans notre sélection de savons et de produits de soin."
+},
+{
+  "id": 75,
+  "name": "Savon Super Éclaircissant",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-super-eclaircissant.webp",
+  "price": 0,
+  "description": "Le savon Super Éclaircissant est une référence cosmétique destinée aux soins de la peau. Retrouvez-le dans la sélection de BOUTIQUE CBI. Consultez sa composition et les précautions d'utilisation avant emploi.",
+  "seoTitle": "Savon Super Éclaircissant | BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon Super Éclaircissant chez BOUTIQUE CBI au Cameroun, dans notre sélection de savons et produits cosmétiques."
+},
+{
+  "id": 76,
+  "name": "Savon Teint Parfait",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-teint-parfait.webp",
+  "price": 0,
+  "description": "Le savon Teint Parfait est un produit cosmétique de la gamme Teint Parfait. Retrouvez cette référence dans la sélection de BOUTIQUE CBI. Consultez l'étiquetage pour connaître sa composition et ses recommandations d'utilisation.",
+  "seoTitle": "Savon Teint Parfait | Soin cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Retrouvez le savon Teint Parfait chez BOUTIQUE CBI au Cameroun, dans notre gamme de savons et produits de soin."
+},
+{
+  "id": 77,
+  "name": "Savon Traitant à la Spiruline",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-savon-traitant-a-la-spiruline.webp",
+  "price": 0,
+  "description": "Le savon à la spiruline est une référence cosmétique de la catégorie Soins visage & corps. Découvrez ce produit chez BOUTIQUE CBI. Consultez sa composition complète et les indications du fabricant avant utilisation.",
+  "seoTitle": "Savon à la Spiruline | Soin cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le savon à la spiruline chez BOUTIQUE CBI au Cameroun, dans notre sélection de savons et produits cosmétiques."
+},
+{
+  "id": 78,
+  "name": "Sérum TP",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-serum-tp.webp",
+  "price": 0,
+  "description": "Le sérum TP est une référence cosmétique de la gamme Teint Parfait. Retrouvez-le dans la sélection de BOUTIQUE CBI. Consultez son étiquetage pour connaître ses actifs, son utilisation et les précautions à respecter.",
+  "seoTitle": "Sérum TP | Gamme Teint Parfait – BOUTIQUE CBI",
+  "seoDescription": "Découvrez le sérum TP chez BOUTIQUE CBI au Cameroun, dans notre sélection de sérums et produits cosmétiques pour la peau."
+},
+{
+  "id": 79,
+  "name": "Sparkle Éclaircissant",
+  "category": "Soins visage & corps",
+  "image": "assets/produits-de-soin-corporel-et-de-visage-sparkle-eclaircissant.webp",
+  "price": 0,
+  "description": "Sparkle Éclaircissant est une référence cosmétique de la catégorie Soins visage & corps de BOUTIQUE CBI. Retrouvez ce produit dans notre sélection et consultez les informations du fabricant concernant sa composition et ses conditions d'utilisation.",
+  "seoTitle": "Sparkle Éclaircissant | Produit cosmétique – BOUTIQUE CBI",
+  "seoDescription": "Découvrez Sparkle Éclaircissant chez BOUTIQUE CBI au Cameroun, dans notre sélection de produits cosmétiques pour les soins de la peau."
+},
 ];
 
 // ==========================================
