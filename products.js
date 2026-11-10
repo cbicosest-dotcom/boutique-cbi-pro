@@ -774,13 +774,14 @@ const SEO_TEMPLATES = {
     `${name} : découvrez ce produit de soin du visage et du corps dans notre sélection BOUTIQUE CBI. Consultez les disponibilités et les conseils d'utilisation avant votre achat.`
 };
 
-// Création des descriptions et mots-clés
-PRODUCTS.forEach((product) => {
+//PRODUCTS.forEach((product) => {
   const template = SEO_TEMPLATES[product.category];
 
-  product.description = template
-    ? template(product.name)
-    : `Découvrez ${product.name} chez BOUTIQUE CBI au Cameroun.`;
+  if (!product.description) {
+    product.description = template
+      ? template(product.name)
+      : `Découvrez ${product.name} chez BOUTIQUE CBI au Cameroun.`;
+  }
 
   product.keywords = [
     product.name,
