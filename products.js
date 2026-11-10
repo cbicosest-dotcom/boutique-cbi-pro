@@ -264,7 +264,8 @@ const PRODUCTS = [
   "name": "Shampoing Antipelliculaire",
   "category": "Soins capillaires",
   "image": "assets/produits-capillaires-shampoing-antipelliculaire.webp",
-  "price": 5000 et 10000,
+  "price": 0,
+"priceOptions": [5000, 10000],
   "description": "Découvrez notre shampoing antipelliculaire, un produit de soin capillaire conçu pour nettoyer les cheveux et aider à éliminer les pellicules visibles. Il accompagne l'entretien du cuir chevelu et contribue à laisser les cheveux propres et frais. Retrouvez-le chez BOUTIQUE CBI.",
   "seoTitle": "Shampoing Antipelliculaire | Soin du cuir chevelu CBI",
   "seoDescription": "Achetez votre shampoing antipelliculaire chez BOUTIQUE CBI à Douala, Cameroun. Découvrez notre sélection de soins pour nettoyer les cheveux et entretenir le cuir chevelu."
