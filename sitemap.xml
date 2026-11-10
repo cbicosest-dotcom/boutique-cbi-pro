@@ -1,5 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://cbicosest-dotcom.github.io/boutique-cbi-pro/</loc>
+    <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://cbicosest-dotcom.github.io/boutique-cbi-pro/formations-livres.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cbicosest-dotcom.github.io/boutique-cbi-pro/parfumerie.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cbicosest-dotcom.github.io/boutique-cbi-pro/soins-capillaires.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cbicosest-dotcom.github.io/boutique-cbi-pro/entretien-maison.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cbicosest-dotcom.github.io/boutique-cbi-pro/soins-visage-corps.html</loc>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
