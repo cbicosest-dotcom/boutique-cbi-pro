@@ -6,9 +6,8 @@ const PRODUCTS = [
   "image": "assets/formation-professionnelle-flyer-formation-en-cosmetique.webp",
   "price": 0,
   "description": "Découvrez nos formations professionnelles en cosmétique avec IFPCBI. Développez vos connaissances en formulation cosmétique, fabrication de produits et bonnes pratiques de laboratoire grâce à une approche pédagogique orientée vers le savoir-faire.",
-  "seoTitle": "Formation professionnelle en cosmétique | IFPCBI",
-  "seoDescription": "Découvrez les formations en cosmétique proposées par IFPCBI à Douala, Cameroun. Apprenez la formulation et la fabrication de produits cosmétiques."
-},
+  "seoTitle": "Formation professionnelle en "seoTitle": "Formation en cosmétique à Douala | IFPCBI Cameroun",
+"seoDescription": "Suivez une formation professionnelle en cosmétique avec IFPCBI à Douala, Cameroun. Apprenez la formulation, la fabrication et les bonnes pratiques de laboratoire."
   {
   "id": 2,
   "name": "Formation en Chimie Industrielle",
