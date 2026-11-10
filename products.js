@@ -795,3 +795,4 @@ PRODUCTS.forEach((product) => {
   product.imageAlt =
     `${product.name} - ${product.category} - BOUTIQUE CBI Cameroun`;
 });
+console.log("Catalogue CBI chargé :", PRODUCTS.length, "produits");
