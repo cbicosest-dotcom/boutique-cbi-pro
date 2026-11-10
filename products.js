@@ -7,12 +7,15 @@ const PRODUCTS = [
     "price": 0
   },
   {
-    "id": 2,
-    "name": "Formation En Chimie Industrielle",
-    "category": "Formations & livres",
-    "image": "assets/formation-professionnelle-formation-en-chimie-industrielle.webp",
-    "price": 0
-  },
+  "id": 2,
+  "name": "Formation en Chimie Industrielle",
+  "category": "Formations & livres",
+  "image": "assets/formation-professionnelle-formation-en-chimie-industrielle.webp",
+  "price": 0,
+  "description": "Développez vos compétences en chimie industrielle avec IFPCBI. Découvrez les principes de la chimie appliquée, les matières premières, les procédés de fabrication, les techniques de production et le contrôle qualité. Une formation orientée vers la pratique professionnelle.",
+  "seoTitle": "Formation en Chimie Industrielle | IFPCBI Cameroun",
+  "seoDescription": "Suivez une formation en chimie industrielle avec IFPCBI à Douala, Cameroun. Apprenez les procédés de fabrication, la production et le contrôle qualité."
+},
   {
     "id": 3,
     "name": "Formation En Dermocosmetique Capillaire",
