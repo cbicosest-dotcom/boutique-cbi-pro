@@ -58,11 +58,13 @@ function renderProducts() {
       category === "Toutes" || category === product.category;
 
     const searchContent = [
-      product.name,
-      product.category,
-      product.description || "",
-      product.keywords || ""
-    ].join(" ").toLowerCase();
+  product.name,
+  product.category,
+  product.description || "",
+  product.keywords || "",
+  product.seoTitle || "",
+  product.seoDescription || ""
+].join(" ").toLowerCase();
 
     const matchesSearch = searchContent.includes(search);
 
